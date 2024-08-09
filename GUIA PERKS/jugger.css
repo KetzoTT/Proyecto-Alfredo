@@ -1,0 +1,173 @@
+/* General Styling */
+body {
+    margin: 0;
+    font-family: monospace;
+    color: #fff;
+    background-image: url(FondoZombies/FondoPerks.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+p{
+font-size: 20px;
+}
+
+h4{
+font-size: 25px;
+
+}
+
+h1 {
+    color: white;
+    margin: 0;
+}
+
+.videoCompare{
+width: 600px;
+height: 600px;
+
+}
+
+nav ul.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav ul.menu li {
+    margin: 10px;
+}
+
+nav ul.menu li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+audio{
+width: 90%;
+
+}
+nav ul.menu li img {
+    margin-right: 8px;
+    vertical-align: middle;
+    max-width: 50px; /* Tamaño máximo para los íconos del menú */
+    height: auto;
+}
+
+nav ul.menu li a:hover {
+    color: grey;
+    text-decoration: underline;
+}
+
+/* Main Content Styling */
+.desc {
+    text-align: center;
+    padding: 20px;
+}
+
+.perk-image{
+
+height: 450px ;
+
+}
+
+.Botella{
+height: 450px;
+
+
+}
+
+.perk-image {
+    max-width: 100%; /* Asegura que la imagen no exceda el ancho del contenedor */
+   
+    margin: 10px 0;
+}
+
+fieldset {
+    border: 2px solid #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    font-size: 25px;
+}
+
+legend {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.icon {
+    width: 100px;
+    height: auto;
+}
+
+
+.flexvideo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.videoCompare {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.video-description {
+    text-align: center;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+label, ul {
+    font-size: 16px;
+}
+
+li {
+    list-style: none;
+}
+
+video{
+   border-radius: 8px; 
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul.menu {
+        flex-direction: column;
+    }
+
+    nav ul.menu li {
+        margin: 5px 0;
+    }
+
+    .desc {
+        padding: 10px;
+    }
+
+    .perk-image {
+        max-width: 100%; /* Ajusta el tamaño máximo para imágenes en pantallas pequeñas */
+        max-height: 450px;
+    }
+
+    fieldset {
+        padding: 10px;
+        font-size: 1em;
+    }
+}

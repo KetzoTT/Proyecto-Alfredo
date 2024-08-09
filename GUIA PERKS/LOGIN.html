@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio Sesión</title>
+    <link rel="stylesheet" href="Login.css">
+</head>
+<body style=" background-image: url('FondoZombies/FondoPerks.jpg')"; >
+    <h1>INICIAR SESIÓN</h1>
+    <h2>ACCEDER A LA GUIA DE ZOMBIES</h2>
+    <hr>
+    
+
+    <!--
+    <?php 
+    if (isset($_GET['error'])) {
+        echo '<p class="error">' . htmlspecialchars($_GET['error']) . '</p>';
+    }
+    ?>-->
+
+    <hr>
+
+    <form action="IniciarSesion.php" method="post">
+        <label for="username">USUARIO:</label>
+        <input type="text" id="username" name="Usuario" maxlength="15" placeholder="Nombre de Usuario" required>
+        
+        <label for="password">CONTRASEÑA:</label>
+        <input type="password" id="password" name="Clave" maxlength="15" required>
+
+        <button  type="submit" >Iniciar Sesión</button>
+
+        <a href="inicio.html">MENU</a>
+    </form>
+</body>
+</html>
